@@ -8,7 +8,7 @@ import skimage
 
 from layers.DefGrid.mean_feature.mean_feature import get_grid_mean_feature
 from layers.DefGrid.variance_function_atom.line_distance_func_topk.utils import variance_f_in_one_atom_topk as line_variance_topk
-from layers.DefGrid.variance_function_atom.line_distance_func_parallel.utils import variance_f_in_one_atom_parallel as line_variance_parallel
+#from layers.DefGrid.variance_function_atom.line_distance_func_parallel.utils import variance_f_in_one_atom_parallel as line_variance_parallel
 from layers.DefGrid.check_condition_lattice_bbox.utils import check_condition_f_bbox
 EPS = 1e-10
 
